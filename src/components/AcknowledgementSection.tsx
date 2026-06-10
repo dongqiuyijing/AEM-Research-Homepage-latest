@@ -2,12 +2,14 @@ import SectionWrapper from "./SectionWrapper";
 const AcknowledgementSection = () => {
   return <SectionWrapper id="acknowledgement" title="Acknowledgement">
       <div className="rounded-xl border border-border bg-accent/40 p-6 md:p-8">
-        <p className="mb-6 text-sm leading-relaxed text-foreground md:text-base">The authors would like to express their sincere gratitude to Beijing Suanli
-          Ziyou Technology Co., Ltd. for their generous sponsorship. The
-          high-performance GPU computational resources they provided significantly
-          accelerated the model training and extensive simulation experiments presented
-          in this paper, offering crucial infrastructure support for the completion of
-          this research.</p>
+        <p className="mb-6 text-sm leading-relaxed text-foreground md:text-base">
+          The computation and experimental validation in this paper were proudly
+          sponsored and supported by Beijing Suanli Ziyou Technology Co., Ltd.
+          (gpufree.cn). Thanks to the stable GPU resources they provided, the
+          complex neural network pre-training and embodied task evaluations involved
+          in this study were completed efficiently. We extend our deepest
+          appreciation for their support.
+        </p>
 
         <div className="flex flex-col items-center gap-4">
           <a href="https://gpufree.cn" target="_blank" rel="noopener noreferrer" className="block">
