@@ -1,0 +1,23 @@
+import SectionWrapper from "./SectionWrapper";
+const AcknowledgementSection = () => {
+  return <SectionWrapper id="acknowledgement" title="Acknowledgement">
+      <div className="rounded-xl border border-border bg-accent/40 p-6 md:p-8">
+        <p className="mb-6 text-sm leading-relaxed text-foreground md:text-base">The authors would like to express their sincere gratitude to Beijing Suanli
+          Ziyou Technology Co., Ltd. for their generous sponsorship. The
+          high-performance GPU computational resources they provided significantly
+          accelerated the model training and extensive simulation experiments presented
+          in this paper, offering crucial infrastructure support for the completion of
+          this research.</p>
+
+        <div className="flex flex-col items-center gap-4">
+          <a href="https://gpufree.cn" target="_blank" rel="noopener noreferrer" className="block">
+            <img src="https://grazia-prod.oss-ap-southeast-1.aliyuncs.com/resources/uid_100081286/9eb59892-0fc1-42.png" alt="Computational Freedom - gpufree.cn" className="h-20 w-auto md:h-24" crossOrigin="anonymous" />
+          </a>
+          <a href="https://gpufree.cn" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 rounded-full border border-secondary/30 bg-secondary/10 px-5 py-2 text-sm font-semibold text-secondary transition-colors hover:bg-secondary/20">
+            gpufree.cn
+          </a>
+        </div>
+      </div>
+    </SectionWrapper>;
+};
+export default AcknowledgementSection;
