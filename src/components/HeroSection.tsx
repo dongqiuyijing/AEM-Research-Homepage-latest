@@ -55,7 +55,7 @@ const HeroSection = () => {
         </div>
 
         {/* PDF Button */}
-        <a href="#" className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-medium text-primary-foreground shadow-[var(--shadow-elevated)] transition-all hover:opacity-90 hover:shadow-lg">
+        <a href="https://arxiv.org/pdf/2606.12499" className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-medium text-primary-foreground shadow-[var(--shadow-elevated)] transition-all hover:opacity-90 hover:shadow-lg">
           <FileDown className="h-4 w-4" />
           Paper (PDF)
         </a>
